@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+}
+
+#game-board {
+  background-color: green;
+  height: 100vh;
+}
+
+#center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#player1 {
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#player2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#player3 {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#player4 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 93%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.selected {
+  background-color: yellow;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+.fliped {
+  color: black;
+  content: url(assests/cards-svg/backcard.jpg);
+}
+
+img {
+  width: 80px;
+}
+
+#point-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#table {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 100px;
+  overflow-y: auto;
+}
+
+#point-table th {
+  border: 1px solid black;
+}
+
+#point-table td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.table-head {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  color: white;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
